@@ -19,17 +19,17 @@ public class ModelFactory {
         ResourceBundle configFile;
         configFile = ResourceBundle.getBundle("configuration.config");
         String modelType = configFile.getString("modelType");
-        Model model;
+        Model model = null;
         switch (modelType) {
             case "1":
-                /*model=*/
+                model=new FileModelImplementation();
                 break;
             case "2":
                /* model=*/
                 break;
         }
 
-        return null;
+        return model;
     }
 
 }

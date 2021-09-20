@@ -5,7 +5,11 @@
  */
 package mvchelloworld;
 
+import mvchelloworld.controller.Controller;
+import mvchelloworld.model.Model;
 import mvchelloworld.model.ModelFactory;
+import mvchelloworld.view.View;
+import mvchelloworld.view.ViewFactory;
 
 /**
  *
@@ -17,7 +21,11 @@ public class Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        ModelFactory model =new ModelFactory();
+        ModelFactory modelFactory =new ModelFactory();
+        Model model=modelFactory.getModel();
+        ViewFactory viewFactory=new ViewFactory();
+        View view=viewFactory.getView();
+        Controller controller=new Controller(model,view);
     }
     
 }
