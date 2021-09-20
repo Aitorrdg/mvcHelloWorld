@@ -3,21 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mvchelloworld;
-
-import mvchelloworld.model.ModelFactory;
+package mvchelloworld.view;
 
 /**
  *
  * @author Zeeshan,Aitor
  */
-public class Application {
-
+public interface View {
     /**
-     * @param args the command line arguments
+     * 
+     * @param greet which is  received from the database or the file, to be shown.
+     * 
      */
-    public static void main(String[] args) {
-        ModelFactory model =new ModelFactory();
-    }
+    
+    public void showGreeting(String greet);
     
 }
