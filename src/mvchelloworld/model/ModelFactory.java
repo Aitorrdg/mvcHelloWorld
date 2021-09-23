@@ -25,7 +25,7 @@ public class ModelFactory {
                 model=new FileModelImplementation();
                 break;
             case "2":
-               /* model=*/
+                model=new DBModelImplementation();
                 break;
         }
 
