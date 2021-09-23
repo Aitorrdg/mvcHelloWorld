@@ -20,7 +20,10 @@ public class DBModelImplementation implements Model{
     private Connection con;
     private PreparedStatement stmt;
     private DBConnection connection;
-   
+   /**
+    * 
+    * @return 
+    */
     @Override
     public String getGreeting() {
         ResultSet rs;

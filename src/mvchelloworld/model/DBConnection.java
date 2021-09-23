@@ -7,7 +7,7 @@ package mvchelloworld.model;
 
 /**
  *
- * @author 2dam
+ * @author Zeeshan,Aitor
  */
 import java.sql.Connection;
 import java.sql.DriverManager;
