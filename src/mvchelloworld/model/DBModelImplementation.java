@@ -22,7 +22,7 @@ public class DBModelImplementation implements Model{
     private DBConnection connection;
    /**
     * 
-    * @return 
+    * @return here this method will fetch the greeting from database.
     */
     @Override
     public String getGreeting() {

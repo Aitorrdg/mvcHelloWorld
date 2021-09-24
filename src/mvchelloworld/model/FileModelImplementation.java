@@ -9,10 +9,13 @@ import java.util.ResourceBundle;
 
 /**
  *
- * @author 2dam
+ * @author Aitor, Zeeahan
  */
 public class FileModelImplementation implements Model{
-    
+    /**
+     * 
+     * @return here this method will fetch the greeting from greeting File.
+     */
     @Override
     public String getGreeting() {
         String greeting;

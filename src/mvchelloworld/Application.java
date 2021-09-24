@@ -18,7 +18,9 @@ import mvchelloworld.view.ViewFactory;
 public class Application {
 
     /**
-     * @param args the command line arguments
+     * @param args 
+     * From here our application starts by getting Model and view from their perspectives factories and sending them
+     * to the controller
      */
     public static void main(String[] args) {
         ModelFactory modelFactory =new ModelFactory();

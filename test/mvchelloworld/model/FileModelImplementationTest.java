@@ -11,10 +11,12 @@ import org.junit.Test;
 
 /**
  *
- * @author 2dam
+ * @author Aitor, Zeeshan
  */
 public class FileModelImplementationTest {
-    
+    /**
+     *Test to check the values of greeting is being fetched correctly from File.
+     */
     @Test
     @Ignore
     public void testFileImplementationGetGreetingMethod() {

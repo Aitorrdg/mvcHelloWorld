@@ -7,10 +7,13 @@ package mvchelloworld.view;
 
 /**
  *
- * @author 2dam
+ * @author Aitor, Zeeshan
  */
 public class TextViewImplementation implements View {
-
+/**
+ * 
+ * @param greet Showing greeting on console.
+ */
     @Override
     public void showGreeting(String greet) {
         System.out.println(greet);

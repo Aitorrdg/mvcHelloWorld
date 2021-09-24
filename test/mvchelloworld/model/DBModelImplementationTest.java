@@ -10,10 +10,12 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author 2dam
+ * @author Aitor, Zeeshan
  */
 public class DBModelImplementationTest {
-    
+    /**
+     * Test to check the values of greeting is being fetched correctly from Database.
+     */
     @Test
     public void testDBImplementationGetGreetingMethod() {
         Model model=new DBModelImplementation();

@@ -9,9 +9,14 @@ import java.util.ResourceBundle;
 
 /**
  *
- * @author 2dam
+ * @author Aitor, Zeeshan
  */
 public class ViewFactory {
+
+    /**
+     *
+     * @return This method will read the configuration file and based on assigned valued will return the view object.
+     */
     public View getView(){
         ResourceBundle configFile;
         configFile=ResourceBundle.getBundle("configuration.config");
@@ -22,10 +27,10 @@ public class ViewFactory {
                 view = new TextViewImplementation();
                 break;
             case "2":
-                
+                view= new JavaSwingViewImplementation();
                 break;
             case "3":
-                
+                view= new JavaFxViewImplementation();
                 break;
         }
 

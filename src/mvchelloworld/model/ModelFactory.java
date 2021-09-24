@@ -14,6 +14,10 @@ import java.util.ResourceBundle;
  */
 public class ModelFactory {
 
+    /**
+     *
+     * @return This method will read the configuration file and based on assigned valued will return the model object.
+     */
     public Model getModel() {
 
         ResourceBundle configFile;
