@@ -5,6 +5,7 @@
  */
 package mvchelloworld.view;
 
+import static java.lang.System.exit;
 import javax.swing.JOptionPane;
 
 /**
@@ -86,6 +87,7 @@ public class JavaSwingViewImplementation extends javax.swing.JFrame implements V
     @Override
     public void showGreeting(String greet) {
         JOptionPane.showMessageDialog(this,greet);
+        exit(0);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
