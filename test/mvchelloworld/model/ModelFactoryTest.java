@@ -17,11 +17,18 @@ public class ModelFactoryTest {
      * Test to chech if Model Factory is generating object model properly.
      */
     @Test
-    public void testSomeMethod() {
+    public void testModelIsDBModelImplementation() {
         ModelFactory modelFactory=new ModelFactory();
         Model model=modelFactory.getModel();
         assertNotNull(model);
         assertTrue(model instanceof DBModelImplementation);
+    }
+    @Test
+    public void testFileIsDBModelImplementation() {
+        ModelFactory modelFactory=new ModelFactory();
+        Model model=modelFactory.getModel();
+        assertNotNull(model);
+        assertTrue(model instanceof FileModelImplementation);
     }
     
 }

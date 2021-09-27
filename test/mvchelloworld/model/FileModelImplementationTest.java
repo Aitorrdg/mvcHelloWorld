@@ -22,6 +22,6 @@ public class FileModelImplementationTest {
     public void testFileImplementationGetGreetingMethod() {
         Model model=new FileModelImplementation();
         assertNotNull("ERROR AT READING THE FILE",model.getGreeting());
-        assertEquals("ERROR AT READING THE FILE","Hola Mundo:)",model.getGreeting());
+        assertEquals("ERROR AT READING THE FILE","Hola Mundo Desde Un Archivo:)",model.getGreeting());
     }
 }

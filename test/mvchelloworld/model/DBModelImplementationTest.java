@@ -20,7 +20,7 @@ public class DBModelImplementationTest {
     public void testDBImplementationGetGreetingMethod() {
         Model model=new DBModelImplementation();
         assertNotNull("ERROR AT READING THE FILE",model.getGreeting());
-        assertEquals("ERROR AT READING THE FILE","Hola Mundo:)",model.getGreeting());
+        assertEquals("ERROR AT READING THE FILE","Hola Mundo DB:)",model.getGreeting());
     }
     
 }

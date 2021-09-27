@@ -17,11 +17,24 @@ public class ViewFactoryTest {
      * Test to check that view is getting generated correctly.
      */
     @Test
-    public void testSomeMethod() {
-        ViewFactory viewFactory=new ViewFactory();
-        View view = viewFactory.getView();
-        assertNotNull(view);
-        assertTrue(view instanceof JavaSwingViewImplementation);
+    public void testViewIsTextViewImplementation() {
+       ViewFactory viewFactory=new ViewFactory();
+       View view = viewFactory.getView();
+       assertNotNull(view);
+       assertTrue(view instanceof TextViewImplementation);
     }
-    
+    @Test
+     public void testViewIsSwingViewImplementation() {
+       ViewFactory viewFactory=new ViewFactory();
+       View view = viewFactory.getView();
+       assertNotNull(view);
+       assertTrue(view instanceof JavaSwingViewImplementation);
+    }
+     @Test
+    public void testViewIsJavaFxViewImplementation() {
+       ViewFactory viewFactory=new ViewFactory();
+       View view = viewFactory.getView();
+       assertNotNull(view);
+       assertTrue(view instanceof JavaFxViewImplementation);
+    }
 }
