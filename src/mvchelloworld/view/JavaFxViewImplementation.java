@@ -39,7 +39,7 @@ public class JavaFxViewImplementation extends Application implements View{
     }
     /**
      * 
-     * showing greeting.
+     * @param greet showing greeting.
      */
     @Override
     public void showGreeting(String greet) {

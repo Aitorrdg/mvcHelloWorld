@@ -21,6 +21,7 @@ public class ViewFactoryTest {
         ViewFactory viewFactory=new ViewFactory();
         View view = viewFactory.getView();
         assertNotNull(view);
+        assertTrue(view instanceof JavaSwingViewImplementation);
     }
     
 }

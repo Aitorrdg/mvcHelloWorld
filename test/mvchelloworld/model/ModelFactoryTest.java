@@ -14,13 +14,14 @@ import static org.junit.Assert.*;
  */
 public class ModelFactoryTest {
     /**
-     * Test to chech if Model Factory is generating object mnodel properly.
+     * Test to chech if Model Factory is generating object model properly.
      */
     @Test
     public void testSomeMethod() {
         ModelFactory modelFactory=new ModelFactory();
         Model model=modelFactory.getModel();
         assertNotNull(model);
+        assertTrue(model instanceof DBModelImplementation);
     }
     
 }
