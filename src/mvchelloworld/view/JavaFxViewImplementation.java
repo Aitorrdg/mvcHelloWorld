@@ -31,7 +31,7 @@ public class JavaFxViewImplementation extends Application implements View{
         Pane root = new Pane();
         root.getChildren().add(label);
         
-        Scene scene = new Scene(root, 300, 250);
+        Scene scene = new Scene(root, 530, 250);
         
         primaryStage.setTitle("Hello World!");
         primaryStage.setScene(scene);
