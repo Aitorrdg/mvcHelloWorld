@@ -11,6 +11,9 @@ import java.util.ResourceBundle;
  *
  * @author Aitor, Zeeahan
  */
+/**
+ * Class responsible for File model implementation.
+ */
 public class FileModelImplementation implements Model{
     /**
      * 

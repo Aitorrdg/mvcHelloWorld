@@ -12,8 +12,13 @@ import mvchelloworld.view.View;
 import mvchelloworld.view.ViewFactory;
 
 /**
- *
+ * 
  * @author Zeeshan,Aitor
+ * 
+ */
+/**
+ * 
+ * Main class of the Application, that will run the Application
  */
 public class Application {
 

@@ -9,6 +9,10 @@ package mvchelloworld.view;
  *
  * @author Aitor, Zeeshan
  */
+/**
+ * 
+ **  Class responsible for Text UI model implementation.
+ */
 public class TextViewImplementation implements View {
 /**
  * 

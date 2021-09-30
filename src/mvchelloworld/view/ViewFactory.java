@@ -11,6 +11,9 @@ import java.util.ResourceBundle;
  *
  * @author Aitor, Zeeshan
  */
+/**
+ * Class that is responsible for generating and passing of an Object type of View.
+ */
 public class ViewFactory {
 
     /**

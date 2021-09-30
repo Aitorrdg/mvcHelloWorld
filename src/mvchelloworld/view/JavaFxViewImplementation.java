@@ -18,6 +18,10 @@ import javafx.stage.Stage;
  *
  * @author Aitor, Zeeshan
  */
+/**
+ * 
+ *  Class responsible for JAVA FX model implementation.
+ */
 public class JavaFxViewImplementation extends Application implements View{
     private static String greetFx;
     private Label label;

@@ -9,6 +9,10 @@ package mvchelloworld.view;
  *
  * @author Zeeshan,Aitor
  */
+/**
+ * 
+ * Model Interface that would have all the required methods for View.
+ */
 public interface View {
     /**
      * 

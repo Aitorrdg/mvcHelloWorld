@@ -12,6 +12,9 @@ import java.util.ResourceBundle;
  *
  * @author Zeeshan,Aitor
  */
+/**
+ * Class that is responsible for generating and passing of an Object type of model.
+ */
 public class ModelFactory {
 
     /**

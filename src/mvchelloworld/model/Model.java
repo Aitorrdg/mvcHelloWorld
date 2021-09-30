@@ -9,6 +9,10 @@ package mvchelloworld.model;
  *
  * @author Zeeshan,Aitor
  */
+/**
+ * 
+ * Model Interface that would have all the required methods for model.
+ */
 public interface Model {
     /**
      * 

@@ -16,6 +16,9 @@ import java.util.logging.Logger;
  *
  * @author Zeeshan,Aitor
  */
+/**
+ * Class responsible for DB model implementation.
+ */
 public class DBModelImplementation implements Model{
     private Connection con;
     private PreparedStatement stmt;

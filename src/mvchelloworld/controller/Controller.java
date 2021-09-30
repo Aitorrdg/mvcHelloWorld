@@ -14,6 +14,9 @@ import mvchelloworld.view.View;
  *
  * @author Aitor, Zeeshan
  */
+/**
+ * Controller class of the application, which is responsible for getting one object of each model and view and passing them to main class.
+ */
 public class Controller {
     private Model model;
     private View view;

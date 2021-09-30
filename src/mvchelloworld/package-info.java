@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 /**
- * Package where classes related to model would be created.
+ * Package that contains main class of the Application.
  */
-package mvchelloworld.model;
-
+package mvchelloworld;

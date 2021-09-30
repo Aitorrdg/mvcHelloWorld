@@ -5,16 +5,20 @@
  */
 package mvchelloworld.model;
 
-/**
- *
- * @author Zeeshan,Aitor
- */
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
 
+/**
+ *
+ * @author Zeeshan,Aitor
+ */
+/**
+ * Class that manage DB connection.
+ */
 
 public class DBConnection {
 

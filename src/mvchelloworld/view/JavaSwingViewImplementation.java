@@ -12,6 +12,10 @@ import javax.swing.JOptionPane;
  *
  * @author Aitor, Zeeshan
  */
+/**
+ * 
+ * *  Class responsible for JAVA Swing model implementation.
+ */
 public class JavaSwingViewImplementation extends javax.swing.JFrame implements View{
 
     /**
