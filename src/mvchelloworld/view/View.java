@@ -13,9 +13,10 @@ public interface View {
     /**
      * 
      * @param greet which is  received from the database or the file, to be shown.
+     * @throws java.lang.Exception
      * 
      */
     
-    public void showGreeting(String greet);
+    public void showGreeting(String greet) throws Exception;
     
 }

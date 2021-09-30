@@ -5,6 +5,8 @@
  */
 package mvchelloworld.model;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import static org.junit.Assert.*;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -21,7 +23,11 @@ public class FileModelImplementationTest {
     @Ignore
     public void testFileImplementationGetGreetingMethod() {
         Model model=new FileModelImplementation();
-        assertNotNull("ERROR AT READING THE FILE",model.getGreeting());
-        assertEquals("ERROR AT READING THE FILE","Hola Mundo Desde Un Archivo:)",model.getGreeting());
+        try {
+            assertNotNull("ERROR AT READING THE FILE",model.getGreeting());
+            assertEquals("ERROR AT READING THE FILE","Hola Mundo Desde Un Archivo:)",model.getGreeting());
+        } catch (Exception ex) {
+            Logger.getLogger(FileModelImplementationTest.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 }

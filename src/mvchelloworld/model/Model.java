@@ -13,7 +13,8 @@ public interface Model {
     /**
      * 
      * @return the greeting that is stored in a database or in a file.
+     * @throws java.lang.Exception
      */
-    public String getGreeting();
+    public String getGreeting() throws Exception;
     
 }

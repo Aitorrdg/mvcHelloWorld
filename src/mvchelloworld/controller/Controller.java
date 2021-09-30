@@ -5,6 +5,8 @@
  */
 package mvchelloworld.controller;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import mvchelloworld.model.Model;
 import mvchelloworld.view.View;
 
@@ -26,7 +28,11 @@ public class Controller {
     public Controller(Model model, View view) {
         this.model = model;
         this.view = view;
-        view.showGreeting(model.getGreeting());
+        try {
+            view.showGreeting(model.getGreeting());
+        } catch (Exception ex) {
+            Logger.getLogger(Controller.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
     
 }
